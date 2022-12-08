@@ -83,7 +83,7 @@ function messagep1(){
     const successp1 = document.getElementById('successp1');
     const dangerp1 = document.getElementById('dangerp1');
 
-    if(Datep1.value === '' || StartTimep1.value === '' || EndTimep1.value === '' || Studyp1.value === '' || Remarksp1.value === ''  ){
+    if(Datep1.value === '' || StartTimep1.value === '' ||  Studyp1.value === '' || Remarksp1.value === ''  ){
         dangerp1.style.display = 'block'; 
     } 
 
@@ -110,4 +110,47 @@ let popupp1 = document.getElementById("popupp1");
 
 function openPopupp1(){
   popupp1.classList.add("open-popupp1");
+}
+
+
+// for progoti  2nd year
+
+
+function messagep2(){
+    var Datep2 = document.getElementById('datep2');
+    var StartTimep2= document.getElementById('start-timep2');
+    var EndTimep2 = document.getElementById('end-timep2');
+    var Studyp2 = document.getElementById('studyp2');
+    var Remarksp2 = document.getElementById('remarksp2');
+
+    const successp2 = document.getElementById('successp2');
+    const dangerp2 = document.getElementById('dangerp2');
+
+    if(Datep2.value === '' || StartTimep2.value === '' ||  Studyp2.value === '' ){
+        dangerp2.style.display = 'block'; 
+    } 
+
+    else{
+        setTimeout(() => {
+            Datep2.value = '';
+            StartTimep2.value = '';
+            EndTimep2.value = '';
+            Studyp2.value = '';
+            Remarksp2.value = '';
+            
+        }, 1500);
+
+        successp2.style.display = 'block';
+    }
+    setTimeout(() => {
+        dangerp2.style.display = 'none';
+        successp2.style.display = 'none';
+    }, 4000);
+};
+
+
+let popupp2 = document.getElementById("popupp2");
+
+function openPopupp2(){
+  popupp2.classList.add("open-popupp2");
 }

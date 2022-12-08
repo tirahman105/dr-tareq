@@ -112,8 +112,41 @@
 }
 
 
+
+/* for progoti 2nd  */
+.popupp2{
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  visibility: hidden;
+  transition: transform 0.3s;
+  
+}
+.open-popupp2{
+  visibility: visible;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.message .successp2 {
+  display: none;
+}
+.message .dangerp2 {
+  display: none;
+}
+
+
+
 /* https://docs.google.com/forms/d/e/1FAIpQLSeRZ2yjpn2Jf1fW-ryCgBoXrJoYZlR4PQsSwBeaxS2aIYZk4Q/viewform?usp=pp_url&entry.387134596=6/12/2022&entry.507181989=10:00&entry.749159709=11:00&entry.146474453=Biology+1st+&entry.2044013181=Exam */
 
 /* https://docs.google.com/forms/d/e/1FAIpQLSd6vmgZ51E_0cfrLkgILtt8BZZUzmbPpzw-UyIN46OM0douuw/viewform?usp=pp_url&entry.387134596=1&entry.507181989=2&entry.749159709=3&entry.146474453=bio&entry.2044013181=re */
 
 /* https://docs.google.com/forms/d/e/1FAIpQLSfzFY1MeURr-oJHFSiyhl9KSQWAQS_zD72Eu0Z1pK61tt0TWg/viewform?usp=pp_url&entry.387134596=1&entry.507181989=11&entry.749159709=12&entry.146474453=test&entry.2044013181=rem */
+
+/* https://docs.google.com/forms/d/e/1FAIpQLSeEYWD4wt9UHvTVUz63qhbHnvTIsyaPaQXB-k2YULB_Va9b6Q/viewform?usp=pp_url&entry.387134596=1&entry.507181989=2&entry.749159709=3&entry.146474453=test&entry.2044013181=remaks */
